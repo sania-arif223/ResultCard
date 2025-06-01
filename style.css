@@ -1,0 +1,75 @@
+    body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Montserrat', Arial, sans-serif;
+            margin: 0;
+        }
+        .container {
+            max-width: 1020px;
+            margin: 60px auto;
+            background: #fff;
+            padding: 32px 28px 24px 28px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(76, 68, 182, 0.18);
+            text-align: center;
+        }
+       
+       h2 {
+            color: #5f2c82;
+            margin-bottom: 28px;
+            letter-spacing: 1px;
+            justify-content: center;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+
+        }
+        input[type="text"] {
+           padding: 10px 14px;
+            border: 1.5px solid #764ba2;
+            border-radius: 6px;
+            font-size: 1rem;
+            outline: none;
+            transition: border 0.2s;
+            width: 60%;
+           
+           
+        }
+        input[type="text"]:focus {
+            border-color: #667eea;
+        }
+        .search-btn {
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            border: none;
+            padding: 10px 22px;
+            border-radius: 6px;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(118, 75, 162, 0.12);
+            transition: background 0.2s;
+        }
+        .search-btn:hover {
+            background: linear-gradient(90deg, #764ba2 0%, #667eea 100%);
+        }
+        .card {
+            margin-top: 24px;
+            padding: 24px 18px;
+            background: linear-gradient(120deg, #f8fafc 60%, #e0c3fc 100%);
+            border-radius: 14px;
+            box-shadow: 0 4px 16px rgba(118, 75, 162, 0.10);
+            text-align: left;
+            animation: fadeIn 0.7s;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px);}
+            to { opacity: 1; transform: translateY(0);}
+        }
+        .value {
+            color: #333;
+            font-weight: 500;
+        }
